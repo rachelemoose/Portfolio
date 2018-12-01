@@ -1,0 +1,81 @@
+body {
+    background-image: url("../images/background-canvas-close-up-1020320.jpg");
+    background-size: cover;
+}
+.container {
+    max-width: 100%
+}
+
+.header {
+    border-bottom: 1px solid;
+}
+
+.name-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    padding-top: 10px;
+}
+
+.photo-div {
+    padding: 10px;
+}
+
+.picture {
+    width: 250px;
+    height: auto;
+    border-radius: 40%;
+    float: left;
+    padding: 10px;
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+    float: right; 
+}
+
+.info {
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.social {
+    text-align: center;
+}
+
+.bottomnav {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.nav {
+    padding: 5px;
+    color: black;
+}
+
+.about {
+    font-family: 'Raleway', sans-serif;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: right;
+ }
+  
+  @media screen and (max-width: 600px) {
+    .bottomnav {
+      text-align: center;
+      padding: 15px;
+    }
+  
+  }
