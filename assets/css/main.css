@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/background-canvas-close-up-1020320.jpg");
+    background-image: url("../images/background-cement-concrete-242236.jpg");
     background-size: cover;
 }
 .container {
@@ -19,13 +19,13 @@ body {
 
 .photo-div {
     padding: 10px;
+    text-align: center;
 }
 
 .picture {
     width: 250px;
     height: auto;
     border-radius: 30%;
-    float: left;
     padding: 10px;
 }
 
@@ -36,7 +36,9 @@ body {
 
 .info {
     font-family: 'Raleway', sans-serif;
-    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: bold;
 }
 
 .icon {
@@ -72,11 +74,39 @@ body {
     color: black;
     text-align: right;
  }
+
+ .skills {
+    font-family: 'Raleway', sans-serif;
+ }
+
+ .tech {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+ }
+
+ .javascript {
+     width: 100px;
+     height: 100px;
+     border-radius: 80%;
+ }
+
+ .html5 {
+     width: 120px;
+     height: 120px;
+ }
+
+ .interestlist {
+    font-family: 'Raleway', sans-serif;
+ }
   
   @media screen and (max-width: 600px) {
     .bottomnav {
       text-align: center;
       padding: 15px;
+    }
+    .info {
+        padding: 10px;
     }
   
   }
