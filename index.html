@@ -6,16 +6,38 @@
     <title>Rachel Moose</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins|Raleway" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
-<body>
-  <div class="container">
-      <div class="header">
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="sideNav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+  <div class="container-fluid p-0">
+      <section class="about-section p-3 p-lg-5 d-flex flex-column" id="about">
         <div class="name-header">Rachel Moose</div>
         <div class="contact">571-643-6981 | <a href="mailto:rachelemoose@gmail.com">rachelemoose@gmail.com</a></div>
-    </div>
-    <div class="info">
+      </section>
+    <div class="info-section p-3 p-lg-5 d-flex flex-column" id="info">
         <p>I'm an Integration Engineer with a passion for migrating various platforms to solve complex problems 
             and improve upon existing methods and processes. I currently work with top tier customers on technical integration solutions
             using our API and their Customer Relationship Management or Email Systems. 
@@ -36,13 +58,64 @@
         <img src="assets/images/linkedin-circle-grey-300x300.png" alt="linkedin" class="icon">
       </a>
       </div>
-    <div class="bottomnav">
-            <a class="nav" href="index.html">About</a></li>
-            <a class="nav" href="contact.html">Contact</a>
-            <a class="nav" href="skills.html">Skills</a>
-            <a class="nav" href="interest.html">Interests</a>
-            </button>
-    </div>
+
+      <section class="skills-section p-3 p-lg-5 d-flex flex-column" id="skills">
+          <h1 class="mb-5">Skills</h1>
+          <p>I have experience working abroad as well as remotely, so I am familiar with a variety of workstyles.
+              A few things I've learned to excel at include:</p>
+          <ul>
+              <li>Communication</li>
+              <li>Organization</li>
+              <li>Project Management</li>
+              <li>Collaboration</li>
+          </ul>
+          <h4 class="mb-3">Programming Languages &amp; Tools</h4>
+         <ul class="list-inline dev-icons">
+           <li class="list-inline-item">
+             <i class="fab fa-html5"></i>
+           </li>
+           <li class="list-inline-item">
+             <i class="fab fa-css3-alt"></i>
+           </li>
+           <li class="list-inline-item">
+             <i class="fab fa-js-square"></i>
+           </li>
+           <li class="list-inline-item">
+             <i class="fab fa-angular"></i>
+           </li>
+           <li class="list-inline-item">
+             <i class="fab fa-react"></i>
+           </li>
+           <li class="list-inline-item">
+             <i class="fab fa-node-js"></i>
+           </li>
+           <li class="list-inline-item">
+             <i class="fab fa-python"></i>
+           </li>
+           <li class="list-inline-item">
+             <i class="fab fa-npm"></i>
+           </li>
+         </ul>
+      </section>
+      <section class="interests-section p-3 p-lg-5 d-flex flex-column" id="interests">
+          <h1>Things I Like</h1>
+          <p>I believe time is best spent traveling and learning, which are my most expensive and time consuming hobbies.</p>
+          <p>But when I'm out of time and money, a few of my go-to favorite things are:</p>
+          <ul>
+              <li>Harry Potter</li>
+              <li>Friends</li>
+              <li>Hockey</li>
+              <li>Pizza</li>
+          </ul>
+      </section>
+      <section class="contact-section p-3 p-lg-5 d-flex flex-column" id="contact">
+          <h1>Contact</h1>
+          <p>Feel free to reach out to speak about opportunities</p> 
+              <p>I can be reached by phone at 571-643-6981</p>
+              <p>By email at rachelemoose@gmail.com</p>
+              <p>I currently live in New York City. I'm open to opportunities in Manhattan as well as remote opportunities</p>
+      </section>
+
     <div class="footer">
         Made from scratch by Rachel Moose, so ©
     </div>
